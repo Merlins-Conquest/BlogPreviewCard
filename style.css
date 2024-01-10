@@ -69,7 +69,7 @@ body{
     font-family: 'Figtree',sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
-    margin:0;
+    margin:0 0 10 10;
 
 }
 
@@ -83,15 +83,18 @@ body{
 
 }
 
-.user{
+p.user{
+    display: inline-block;
     font-family: 'Figtree',sans-serif;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 img{
+    display: inline;
+    vertical-align: middle;
     width: 10%;
     border-radius: 50%;
-    margin-right: 2%;
 }
 
 
